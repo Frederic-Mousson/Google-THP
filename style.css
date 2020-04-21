@@ -1,3 +1,38 @@
-Gmail.hover {
-    border-bottom: black;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+a.hover {
+    color: black;
+}
+
+.decouverte {
+    color: blue;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px black solid;
+}
+
+..LienBasPage {
+    display: flex;
+    align-items: baseline;
+}
+
+.top {
+    border: 2px black solid;
+    width: 50px;
+    /*margin: 10px;*/
+}
+
+#decouverte {
+    color: blue;
 }
