@@ -1,38 +1,109 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-}
-
-a:link {
-    text-decoration: none;
-    color: grey;
-}
-
-a.hover {
-    color: black;
-}
-
-.decouverte {
-    color: blue;
-}
-
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    border: 2px black solid;
-}
-
-..LienBasPage {
-    display: flex;
-    align-items: baseline;
-}
-
-.top {
-    border: 2px black solid;
-    width: 50px;
-    /*margin: 10px;*/
-}
-
-#decouverte {
-    color: blue;
-}
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    
+    .Corps {
+        display: flex;
+        align-items: column;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: grey;
+    }
+    
+    #decouverte {
+        color: blue;
+    }
+    
+    .BoutonSubmit {
+        border-radius: 5px;
+    }
+    
+    .BoutonChance {
+        border-radius: 5px;
+    }
+    /*a.hover {
+    color: black;}*/
+    
+    .decouverte {
+        color: blue;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        /*border: 2px black solid;*/
+    }
+    
+    .haut {
+        /*border: 2px black solid;*/
+        margin: 10px;
+        /*margin: 10px;*/
+    }
+    
+    .haut:hover {
+        text-decoration: underline;
+        opacity: 0, 3;
+    }
+    
+    .haut2 {
+        /*border: 2px black solid;*/
+        margin: 10px;
+        /*margin: 10px;*/
+    }
+    
+    .haut3 {
+        /*border: 2px black solid;*/
+        margin: 10px;
+        /*margin: 10px;*/
+    }
+    
+    footer {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .BasFrance {
+        width: 100%;
+        background-color: rgb(230, 230, 230);
+        color: grey;
+        padding: 10px;
+    }
+    
+    .bottomLeft {
+        display: flex;
+        justify-content: flex-start;
+        /*flex-direction: row;*/
+        /*border: 2px black solid;*/
+        width: 49.5%;
+        background-color: rgb(230, 230, 230);
+    }
+    
+    .bottomRight {
+        display: flex;
+        justify-content: flex-end;
+        /*flex-direction: row;*/
+        /*border: 2px black solid;*/
+        width: 49.5%;
+        background-color: rgb(230, 230, 230);
+    }
+    
+    .BottomElement {
+        /*border: 2px black solid;*/
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 10px;
+        text-decoration: underline;
+        opacity: 0, 3;
+    }
+    
+    .BottomElement:link {
+        text-decoration: none;
+        color: grey;
+    }
